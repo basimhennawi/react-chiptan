@@ -2,11 +2,12 @@
     "name": "react-chiptan",
     "version": "1.0.0",
     "description": "React component renders chipTAN flicker code",
-    "main": "index.js",
+    "main": "dist/index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "webpack-dev-server --mode development"
-
+        "start": "webpack-dev-server --mode development",
+        "transpile": "babel src -d dist --copy-files",
+        "prepublishOnly": "npm run transpile"
     },
     "repository": {
         "type": "git",
@@ -21,11 +22,16 @@
     ],
     "author": "Basim Hennawi <basim.a.hennawi@gmail.com>",
     "license": "ISC",
+    "peerDependencies": {
+        "react": "^16.3.0",
+        "react-dom": "^16.3.0"
+    },
     "bugs": {
         "url": "https://github.com/basimhennawi/react-chiptan/issues"
     },
     "homepage": "https://github.com/basimhennawi/react-chiptan#readme",
     "devDependencies": {
+        "babel-cli": "^6.26.0",
         "babel-core": "^6.26.3",
         "babel-loader": "^7.1.4",
         "babel-preset-env": "^1.7.0",
