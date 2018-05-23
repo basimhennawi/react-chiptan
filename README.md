@@ -3,16 +3,13 @@ react-chiptan
 
 React component renders [chipTAN](https://github.com/basimhennawi/react-chiptan/blob/master/ChipTAN.md) flicker code.
 
+<img src="https://raw.githubusercontent.com/basimhennawi/react-chiptan/master/demo.gif">
+
 Installing
 ------------
 ```
 $ npm i -S react-chiptan
 ```
-
-[Demo](https://basimhennawi.github.io/react-chiptan)
---------------
-
-<img src="https://raw.githubusercontent.com/basimhennawi/react-chiptan/master/demo.gif">
 
 [Example](https://github.com/basimhennawi/react-chiptan/tree/master/examples/src)
 --------------
