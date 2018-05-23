@@ -34,7 +34,7 @@ render(<App />, document.getElementById("root"));
 
 | Property | Type | Default | Description |
 | --- | --- | --- | --- |
-| data | string | '' | ChipTAN [code](https://github.com/basimhennawi/react-chiptan/blob/master/Code.md) to render (i.e.: `17850120452019980412345678041234567804123456789E`). |
+| data | string | '' | ChipTAN [code](https://github.com/basimhennawi/react-chiptan/blob/master/Code.md) to render. |
 | width | number | 205 | Canvas width. |
 | height | number | 100 | Canvas height. |
 | bgColor | string | '#000' | Canvas background color. |
@@ -49,6 +49,10 @@ To contribute, follow these steps:
 - Run `npm start`
 - Goto `localhost:3001`
 - Add your patch then push to your fork and submit a pull request
+
+Acknowledgments
+--------------
+Inspired by [chipTAN Flickercodes article](https://6xq.net/flickercodes)
 
 License
 ---------
