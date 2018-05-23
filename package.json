@@ -18,10 +18,11 @@
     },
     "keywords": [
         "chiptan",
-        "tan",
         "flicker",
-        "javascript",
-        "hdd"
+        "tan",
+        "hdd",
+        "format",
+        "javascript"
     ],
     "author": "Basim Hennawi <basim.a.hennawi@gmail.com>",
     "license": "ISC",
