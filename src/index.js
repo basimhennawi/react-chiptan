@@ -11,7 +11,6 @@ class ChipTAN extends React.Component {
         this.state = {
             canvas: new flickerCanvas(width, height, bgColor, barColor),
             code: new flickerCode(data),
-            interval: 0,
         };
 
         this.stopFlicker();
@@ -33,11 +32,11 @@ class ChipTAN extends React.Component {
     }
 
     startFlicker() {
-        this.setState({ interval: window.setInterval(this.step.bind(this), 50) });
+        this.interval = setInterval(this.step.bind(this), 50);
     }
 
     stopFlicker() {
-        window.clearInterval(this.state.interval);
+        clearInterval(this.interval);
     }
 
     step() {
