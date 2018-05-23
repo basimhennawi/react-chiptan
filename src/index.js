@@ -64,8 +64,8 @@ ChipTAN.defaultProps = {
     data: '',
     width: 205,
     height: 100,
-    bgColor: '#000000',
-    barColor: '#ffffff',
+    bgColor: '#000',
+    barColor: '#fff',
 };
 
 export default ChipTAN;
