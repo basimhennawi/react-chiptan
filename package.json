@@ -25,7 +25,7 @@
         "javascript"
     ],
     "author": "Basim Hennawi <basim.a.hennawi@gmail.com>",
-    "license": "ISC",
+    "license": "MIT",
     "peerDependencies": {
         "react": "^16.3.0",
         "react-dom": "^16.3.0"
