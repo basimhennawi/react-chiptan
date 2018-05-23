@@ -1,7 +1,7 @@
 react-chiptan
 -------------
 
-is a react component renders [chipTAN](https://github.com/basimhennawi/react-chiptan/blob/master/ChipTAN.md) flicker code.
+React component renders [chipTAN](https://github.com/basimhennawi/react-chiptan/blob/master/ChipTAN.md) flicker code.
 
 Installing
 ------------
@@ -9,7 +9,7 @@ Installing
 $ npm i -S react-chiptan
 ```
 
-Demo
+[Demo](https://basimhennawi.github.io/react-chiptan)
 --------------
 
 <img src="https://raw.githubusercontent.com/basimhennawi/react-chiptan/master/demo.gif">
